@@ -1,2 +1,0 @@
-entidades externas => pesoas, bancos de dados
-linkadas a módulos (funcionalidades)
