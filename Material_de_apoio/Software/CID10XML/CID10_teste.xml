@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+
+<!-- 
+<?xml-stylesheet type="text/xsl" href="CID10.xsl"?>
+<?xml-stylesheet type="text/xsl" href="CID10-capitulos.xsl"?>
+<?xml-stylesheet type="text/xsl" href="CID10-grupos.xsl"?>
+<?xml-stylesheet type="text/xsl" href="CID10-categorias.xsl"?>
+<?xml-stylesheet type="text/xsl" href="CID10-subcategorias.xsl"?>
+<?xml-stylesheet type="text/xsl" href="CID10-cnv-capitulos.xsl"?>
+<?xml-stylesheet type="text/xsl" href="CID10-cnv-capitulos-col.xsl"?>
+<?xml-stylesheet type="text/xsl" href="CID10-cnv-grupos.xsl"?>
+<?xml-stylesheet type="text/xsl" href="CID10-cnv-grupos-sel.xsl"?>
+<?xml-stylesheet type="text/xsl" href="CID10-cnv-categorias.xsl"?>
+<?xml-stylesheet type="text/xsl" href="CID10-cnv-subcategorias.xsl"?>
+<?xml-stylesheet type="text/xsl" href="CID10-cnv-subcategorias-sel.xsl"?>
+<?xml-stylesheet type="text/xsl" href="CID10-csv-capitulos.xsl"?>
+<?xml-stylesheet type="text/xsl" href="CID10-csv-grupos.xsl"?>
+<?xml-stylesheet type="text/xsl" href="CID10-csv-categorias.xsl"?>
+<?xml-stylesheet type="text/xsl" href="CID10-csv-subcategorias.xsl"?>
+-->
+
+<!DOCTYPE cid10 SYSTEM "CID10.dtd">
+<cid10 versao="V2007">
+	<capitulo numcap="1" codcap="A00-B99" romano="I" inicial="A00" final="B99">
+		<nome>Algumas doenças infecciosas e parasitárias</nome>
+		<nome50>I.   Algumas doenças infecciosas e parasitárias</nome50>
+		<grupo codgrupo="A00-A09" inicial="A00" final="A09">
+			<nome>Doenças infecciosas intestinais</nome>
+			<nome50>Doenças infecciosas intestinais</nome50>
+			<categoria codcat="A00">
+				<nome>Cólera</nome>
+				<nome50>A00   Colera</nome50>
+				<subcategoria codsubcat="A000">
+					<nome>Cólera devida a Vibrio cholerae 01, biótipo cholerae</nome>
+					<nome50>A00.0 Colera dev Vibrio cholerae 01 biot cholerae</nome50>
+					</subcategoria>
+				<subcategoria codsubcat="A001">
+					<nome>Cólera devida a Vibrio cholerae 01, biótipo El Tor</nome>
+					<nome50>A00.1 Colera dev Vibrio cholerae 01 biot El Tor</nome50>
+					</subcategoria>
+				<subcategoria codsubcat="A009">
+					<nome>Cólera não especificada</nome>
+					<nome50>A00.9 Colera NE</nome50>
+					</subcategoria>
+				</categoria>
+			<categoria codcat="A01">
+				<nome>Febres tifóide e paratifóide</nome>
+				<nome50>A01   Febres tifoide e paratifoide</nome50>
+				<subcategoria codsubcat="A010">
+					<nome>Febre tifóide</nome>
+					<nome50>A01.0 Febre tifoide</nome50>
+					</subcategoria>
+				<subcategoria codsubcat="A011">
+					<nome>Febre paratifóide A</nome>
+					<nome50>A01.1 Febre paratifoide A</nome50>
+					</subcategoria>
+				<subcategoria codsubcat="A012">
+					<nome>Febre paratifóide B</nome>
+					<nome50>A01.2 Febre paratifoide B</nome50>
+					</subcategoria>
+				<subcategoria codsubcat="A013">
+					<nome>Febre paratifóide C</nome>
+					<nome50>A01.3 Febre paratifoide C</nome50>
+					</subcategoria>
+				<subcategoria codsubcat="A014">
+					<nome>Febre paratifóide não especificada</nome>
+					<nome50>A01.4 Febre paratifoide NE</nome50>
+					</subcategoria>
+				</categoria>
+		</grupo>
+		<grupo codgrupo="B00-B09" inicial="B00" final="B09">
+			<nome>Infecções virais caracterizadas por lesões de pele e mucosas</nome>
+			<nome50>Infecções virais caract p/lesões de pele e mucosas</nome50>
+			<categoria codcat="B00">
+				<nome>Infecções pelo vírus do herpes [herpes simples]</nome>
+				<nome50>B00   Infecc p/virus do herpes</nome50>
+				<subcategoria codsubcat="B000">
+					<nome>Eczema herpético</nome>
+					<nome50>B00.0 Eczema herpetico</nome50>
+					</subcategoria>
+				<subcategoria codsubcat="B001">
+					<nome>Dermatite vesicular devido ao vírus do herpes</nome>
+					<nome50>B00.1 Dermatite vesicular dev virus do herpes</nome50>
+					</subcategoria>
+				<subcategoria codsubcat="B002">
+					<nome>Gengivoestomatite e faringoamigdalite devida ao vírus do herpes</nome>
+					<nome50>B00.2 Gengivoestom e faringoamig dev virus herpes</nome50>
+					<restricoes causaobito="nao" />
+					</subcategoria>
+				<subcategoria codsubcat="B003">
+					<duplaclassificacao tipo="cruz">
+						<referencia codrefer="G020">G02.0*</referencia>
+						</duplaclassificacao>
+					<nome>Meningite devida ao vírus do herpes</nome>
+					<nome50>B00.3 Meningite dev virus do herpes</nome50>
+					</subcategoria>
+				<subcategoria codsubcat="B004">
+					<duplaclassificacao tipo="cruz">
+						<referencia codrefer="G051">G05.1*</referencia>
+						</duplaclassificacao>
+					<nome>Encefalite devida ao vírus do herpes</nome>
+					<nome50>B00.4 Encefalite dev virus do herpes</nome50>
+					</subcategoria>
+				<subcategoria codsubcat="B005">
+					<nome>Afecções oculares devidas ao vírus do herpes</nome>
+					<nome50>B00.5 Afeccoes oculares dev virus do herpes</nome50>
+					<restricoes causaobito="nao" />
+					</subcategoria>
+				<subcategoria codsubcat="B007">
+					<nome>Doença disseminada devida ao vírus do herpes</nome>
+					<nome50>B00.7 Doenc disseminada dev virus do herpes</nome50>
+					</subcategoria>
+				<subcategoria codsubcat="B008">
+					<nome>Outras formas de infecção devida ao vírus do herpes</nome>
+					<nome50>B00.8 Outr form de infecc dev virus do herpes</nome50>
+					<restricoes causaobito="nao" />
+					</subcategoria>
+				<subcategoria codsubcat="B009">
+					<nome>Infecção não especificada devida ao vírus do herpes</nome>
+					<nome50>B00.9 Infecc NE dev virus do herpes</nome50>
+					</subcategoria>
+				</categoria>
+			<categoria codcat="B04" ehsubcat="sim">
+				<nome>Varíola dos macacos [Monkeypox]</nome>
+				<nome50>B04   Variola dos macacos</nome50>
+				</categoria>
+			<categoria codcat="B08">
+				<nome>Outras infecções virais caracterizadas por lesões da pele e das membranas mucosas, não classificadas em outra parte</nome>
+				<nome50>B08   Outr inf virais lesoes pele membr muc NCOP</nome50>
+				<subcategoria codsubcat="B080">
+					<nome>Outras infecções por ortopoxvírus</nome>
+					<nome50>B08.0 Outr infecc p/ortopoxvirus</nome50>
+					</subcategoria>
+				<subcategoria codsubcat="B081">
+					<nome>Molusco contagioso</nome>
+					<nome50>B08.1 Molusco contagioso</nome50>
+					<restricoes causaobito="nao" />
+					</subcategoria>
+				<subcategoria codsubcat="B082">
+					<nome>Exantema súbito [sexta doença]</nome>
+					<nome50>B08.2 Exantema subito</nome50>
+					</subcategoria>
+				<subcategoria codsubcat="B083">
+					<nome>Eritema infeccioso [quinta doença]</nome>
+					<nome50>B08.3 Eritema infecc</nome50>
+					</subcategoria>
+				<subcategoria codsubcat="B084">
+					<nome>Estomatite vesicular devida a enterovírus com exantema</nome>
+					<nome50>B08.4 Estomatite vesic dev enterovirus c/exantema</nome50>
+					</subcategoria>
+				<subcategoria codsubcat="B085">
+					<nome>Faringite vesicular devida a enterovírus</nome>
+					<nome50>B08.5 Faringite vesicular dev enterovirus</nome50>
+					</subcategoria>
+				<subcategoria codsubcat="B088">
+					<nome>Outras infecções virais especificadas caracterizadas por lesões de pele e das membranas mucosas</nome>
+					<nome50>B08.8 Outr inf virais espec lesoes pele membr muco</nome50>
+					<restricoes causaobito="nao" />
+					</subcategoria>
+				</categoria>
+		</grupo>
+	</capitulo>
+	<capitulo numcap="2" codcap="C00-D48" romano="II" inicial="C00" final="D48">
+		<nome>Neoplasias [tumores]</nome>
+		<nome50>II.  Neoplasias (tumores)</nome50>
+		<grupo codgrupo="C00-C97" inicial="C00" final="C97">
+			<nome>Neoplasias [tumores] malignas(os)</nome>
+			<nome50>Neoplasias malignas</nome50>
+		<grupo codgrupo="C00-C75" inicial="C00" final="C75">
+			<nome>Neoplasias [tumores] malignas(os), declaradas ou presumidas como primárias, de localizações especificadas, exceto dos tecidos linfático, hematopoético e tecidos correlatos</nome>
+			<nome50>Neoplasias malignas de localizações especificadas</nome50>
+  		<grupo codgrupo="C00-C14" inicial="C00" final="C14">
+  			<nome>Neoplasias malignas do lábio, cavidade oral e faringe</nome>
+  			<nome50>Neoplasias malig do lábio, cavidade oral e faringe</nome50>
+				<categoria codcat="C00">
+					<nome>Neoplasia maligna do lábio</nome>
+					<nome50>C00   Neopl malig do labio</nome50>
+					<subcategoria codsubcat="C000">
+						<nome>Neoplasia maligna do lábio superior externo</nome>
+						<nome50>C00.0 Labio super externo</nome50>
+						</subcategoria>
+					<subcategoria codsubcat="C001">
+						<nome>Neoplasia maligna do lábio inferior externo</nome>
+						<nome50>C00.1 Labio infer externo</nome50>
+						</subcategoria>
+					<subcategoria codsubcat="C002">
+						<nome>Neoplasia maligna do lábio externo, não especificado</nome>
+						<nome50>C00.2 Labio externo NE</nome50>
+						</subcategoria>
+					<subcategoria codsubcat="C003">
+						<nome>Neoplasia maligna do lábio superior, face interna</nome>
+						<nome50>C00.3 Labio super face interna</nome50>
+						</subcategoria>
+					<subcategoria codsubcat="C004">
+						<nome>Neoplasia maligna do lábio inferior, face interna</nome>
+						<nome50>C00.4 Labio infer face interna</nome50>
+						</subcategoria>
+					<subcategoria codsubcat="C005">
+						<nome>Neoplasia maligna do lábio, sem especificação, face interna</nome>
+						<nome50>C00.5 Labio s/especificacao face interna</nome50>
+						</subcategoria>
+					<subcategoria codsubcat="C006">
+						<nome>Neoplasia maligna da comissura labial</nome>
+						<nome50>C00.6 Comissura labial</nome50>
+						</subcategoria>
+					<subcategoria codsubcat="C008">
+						<nome>Neoplasia maligna do lábio com lesão invasiva</nome>
+						<nome50>C00.8 Lesao invasiva do labio</nome50>
+						</subcategoria>
+					<subcategoria codsubcat="C009">
+						<nome>Neoplasia maligna do lábio, não especificado</nome>
+						<nome50>C00.9 Labio NE</nome50>
+						</subcategoria>
+					</categoria>
+				<categoria codcat="C01" ehsubcat="sim">
+					<nome>Neoplasia maligna da base da língua</nome>
+					<nome50>C01   Neopl malig da base da lingua</nome50>
+					</categoria>
+  		</grupo>
+  		<grupo codgrupo="C97-C97" inicial="C97" final="C97">
+  			<nome>Neoplasias malignas de localizações múltiplas independentes (primárias)</nome>
+  			<nome50>Neopl malig local múltiplas independentes (prim)</nome50>
+				<categoria codcat="C97" ehsubcat="sim">
+					<nome>Neoplasias malignas de localizações múltiplas independentes (primárias)</nome>
+					<nome50>C97   Neopl malig de localiz mult independentes</nome50>
+				</categoria>
+  		</grupo>
+		</grupo>
+	</capitulo>
+	<capitulo numcap="22" codcap="U00-U99" romano="XXII" inicial="U04" final="U99">
+		<nome>Códigos para propósitos especiais</nome>
+		<nome50>XXII.Códigos para propósitos especiais</nome50>
+		<grupo codgrupo="U00-U49" inicial="U04" final="U04">
+			<nome>Designação provisória de novas doenças de etiologia incerta</nome>
+			<nome50>Designação prov novas doenças de etiologia incerta</nome50>
+			<categoria codcat="U04">
+				<nome>Síndrome respiratória aguda grave [severe acute respiratory syndrome SARS]</nome>
+				<nome50>U04   Síndrome respiratória aguda grave [SARS]</nome50>
+				<subcategoria codsubcat="U049">
+					<nome>Síndrome respiratória aguda grave [Severe acute respiratory syndrome) [SARS], não especificada</nome>
+					<nome50>U04.9 Síndrome respiratória aguda grave [SARS]</nome50>
+				</subcategoria>
+			</categoria>
+		</grupo>
+		<grupo codgrupo="U99-U99" inicial="U99" final="U99">
+			<nome>CID 10ª Revisão não disponível</nome>
+			<nome50>CID 10ª Revisão não disponível</nome50>
+			<categoria codcat="U99" ehsubcat="sim">
+				<nome>CID 10ª Revisão não disponível</nome>
+				<nome50>U99   CID 10a Revisao nao disponivel</nome50>
+			</categoria>
+		</grupo>
+	</capitulo>
+</cid10>
