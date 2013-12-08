@@ -1,0 +1,17 @@
+** SORRY ENGLISH VERSION NOT RELEASED YET **
+
+INSTALAÇÃO
+
+Copie o arquivo 'pt_metaphone.php' para o local onde está o seu programa, utilize
+'include("pt_metaphone.php");' para disponibilizá-lo. Use a função "pt_metaphone()",
+a sintaxe é igual 
+
+Maiores detalhes em: http://www2.varzeapaulista.sp.gov.br/metaphone/
+
+
+INSTALATION
+
+*** translation please! ***
+
+To see more datails see: http://www2.varzeapaulista.sp.gov.br/metaphone/
+
