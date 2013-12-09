@@ -67,6 +67,11 @@
 					<nome50>A01.4 Febre paratifoide NE</nome50>
 					</subcategoria>
 				</categoria>
+				<subcategoria codsubcat="A099">
+					<nome>Febre amarela</nome>
+					<nome50>A01.99 Febre amarela</nome50>
+					</subcategoria>
+				</categoria>
 		</grupo>
 		<grupo codgrupo="B00-B09" inicial="B00" final="B09">
 			<nome>Infecções virais caracterizadas por lesões de pele e mucosas</nome>
